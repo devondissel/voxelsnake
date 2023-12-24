@@ -1,0 +1,9 @@
+summon armor_stand 40.288 40.74 38.875 {Marker:1b,Tags:["blue_head1","snake","blue_ignore"],NoGravity:1b,Small:1b,Invisible:1b,Pose:{RightArm:[-15f,-45f,-180f]},HandItems:[{id:"minecraft:blue_wool",Count:1b},{}]}
+summon armor_stand 40.288 40.74 38.875 {Marker:1b,Tags:["blue_head2","snake"],NoGravity:1b,Small:1b,Invisible:1b,Pose:{RightArm:[-15f,-45f,-180f]},HandItems:[{id:"minecraft:blue_wool",Count:1b},{}]}
+summon armor_stand 40.288 40.74 38.875 {Marker:1b,Tags:["blue_head3","snake"],NoGravity:1b,Small:1b,Invisible:1b,Pose:{RightArm:[-15f,-45f,-180f]},HandItems:[{id:"minecraft:blue_wool",Count:1b},{}]}
+scoreboard players set @e[tag=dummy] xblue 6
+scoreboard players set @e[tag=dummy] yblue 6
+scoreboard players set @e[tag=dummy] zblue 1
+scoreboard players set @e[tag=dummy] fblue 0
+scoreboard players set @e[tag=dummy] sblue 4
+scoreboard players set @e[tag=dummy] b_startmoving 0

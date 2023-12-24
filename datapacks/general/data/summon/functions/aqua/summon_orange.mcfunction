@@ -1,0 +1,9 @@
+summon armor_stand 40.288 39.79 39.825 {Marker:1b,Tags:["orange_head1","snake","orange_ignore"],NoGravity:1b,Small:1b,Invisible:1b,Pose:{RightArm:[-15f,-45f,-180f]},HandItems:[{id:"minecraft:orange_wool",Count:1b},{}]}
+summon armor_stand 40.288 39.79 39.825 {Marker:1b,Tags:["orange_head2","snake"],NoGravity:1b,Small:1b,Invisible:1b,Pose:{RightArm:[-15f,-45f,-180f]},HandItems:[{id:"minecraft:orange_wool",Count:1b},{}]}
+summon armor_stand 40.288 39.79 39.825 {Marker:1b,Tags:["orange_head3","snake"],NoGravity:1b,Small:1b,Invisible:1b,Pose:{RightArm:[-15f,-45f,-180f]},HandItems:[{id:"minecraft:orange_wool",Count:1b},{}]}
+scoreboard players set @e[tag=dummy] xorange 6
+scoreboard players set @e[tag=dummy] yorange 1
+scoreboard players set @e[tag=dummy] zorange 6
+scoreboard players set @e[tag=dummy] forange 0
+scoreboard players set @e[tag=dummy] sorange 6
+scoreboard players set @e[tag=dummy] o_startmoving 0

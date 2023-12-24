@@ -1,0 +1,2 @@
+execute at @e[tag=fakeapple] if entity @e[type=minecraft:armor_stand,tag=snake,distance=..0.01] run function spreadapple:apple
+execute at @e[tag=fakeapple] unless entity @e[type=minecraft:armor_stand,tag=snake,distance=..0.01] run function spreadapple:replaceitem
